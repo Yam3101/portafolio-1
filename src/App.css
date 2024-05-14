@@ -17,7 +17,7 @@
 }
 
 .back-color, .back-color-2 {
-  background-color: #0051ff;
+  background-color: #006eff;
   height: 6px;
   animation: aparecer-linea 1.6s;
 }
@@ -28,7 +28,7 @@
 
 .title-major {
   font-family: reem kufi fun;
-  color: #0051ff;
+  color: #006eff;
   font-weight: 900;
   font-size: 4.5vi;
 }
