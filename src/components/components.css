@@ -1,0 +1,34 @@
+.container-nav-info {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.container-logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: reem kufi fun;
+    font-size: 35px;
+    margin: 0;
+}
+
+.contact-logos {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.git-logo {
+    animation: aparecer-up-down 0.4s;
+}
+.disc-logo {
+    animation: aparecer-up-down 1s;
+}
+.twt-logo {
+    animation: aparecer-up-down 1.6s;
+}
