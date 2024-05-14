@@ -30,7 +30,7 @@
 }
 
 .git-logo {
-    animation: aparecer-up-down 0.4s;
+    animation: aparecer-down-up 0.4s;
     transition: transform 0.4s;
 }
 .git-logo:hover {
@@ -39,7 +39,7 @@
     border-bottom: #ff6600 4px solid;
 }
 .disc-logo {
-    animation: aparecer-up-down 1s;
+    animation: aparecer-down-up 1s;
     transition: transform 0.4s;
 }
 .disc-logo:hover {
@@ -48,7 +48,7 @@
     border-bottom: #395ab6 4px solid;
 }
 .twt-logo {
-    animation: aparecer-up-down 1.6s;
+    animation: aparecer-down-up 1.6s;
     transition: transform 0.4s;
 }
 .twt-logo:hover {
@@ -65,4 +65,34 @@
         display: flex;
     }
 }
-/* ENDS CSS STYLES OF NAVBAR */
+/* ENDS CSS STYLES OF NAVBAR AND STARTS SKILLS CSS */
+
+.container-skills {
+    margin-top: 8vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.skills {
+    padding: 2vi;
+    border: #fff 1px solid ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: dm sans;
+}
+
+@media (max-width: 860px) {
+    .container-skills {
+        display: grid;
+    }
+    .skills {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
