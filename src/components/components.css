@@ -1,3 +1,5 @@
+/* NAVBAR CSS */
+
 .container-nav-info {
     background-color: #fff;
     display: flex;
@@ -15,6 +17,7 @@
     font-family: reem kufi fun;
     font-size: 35px;
     margin: 0;
+    animation: aparecer-right-left 2s;
 }
 
 .contact-logos {
@@ -25,10 +28,24 @@
 
 .git-logo {
     animation: aparecer-up-down 0.4s;
+    transition: transform 0.4s;
+}
+.git-logo:hover {
+    transform: translatey(-6px);
 }
 .disc-logo {
     animation: aparecer-up-down 1s;
+    transition: transform 0.4s;
+}
+.disc-logo:hover {
+    transform: translatey(-6px);
 }
 .twt-logo {
     animation: aparecer-up-down 1.6s;
+    transition: transform 0.4s;
 }
+.twt-logo:hover {
+    transform: translatey(-6px);
+}
+
+/* ENDS CSS STYLES OF NAVBAR */

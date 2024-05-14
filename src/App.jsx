@@ -5,6 +5,9 @@ function App() {
   return (
     <>
       <NavBar />
+      <div className='presentation-text'>
+        Hola
+      </div>
     </>
   )
 }
