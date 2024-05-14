@@ -6,7 +6,7 @@ function App() {
     <>
       <NavBar />
       <div className='presentation-text'>
-        Hola
+        <h1 className='my-name'>ANGEL YAM</h1>
       </div>
     </>
   )

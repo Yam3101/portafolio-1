@@ -13,11 +13,14 @@
     align-items: center;
 }
 
-.nav-title {
+.nav-title, .nav-title-2 {
     font-family: reem kufi fun;
     font-size: 35px;
     margin: 0;
     animation: aparecer-right-left 2s;
+}
+.nav-title-2 {
+    display: none;
 }
 
 .contact-logos {
@@ -32,6 +35,7 @@
 }
 .git-logo:hover {
     transform: translatey(-6px);
+    fill: aqua;
 }
 .disc-logo {
     animation: aparecer-up-down 1s;
@@ -48,4 +52,12 @@
     transform: translatey(-6px);
 }
 
+@media (max-width: 445px) {
+    .nav-title {
+        display: none;
+    }
+    .nav-title-2 {
+        display: flex;
+    }
+}
 /* ENDS CSS STYLES OF NAVBAR */
