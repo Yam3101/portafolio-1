@@ -12,7 +12,7 @@ export default function NavBar() {
             <div className="contact-logos">
                 <a href="https://github.com/Yam3101"><img width={40} src="/public/github.svg" alt="GitHub" className="git-logo"/></a>
                 <a href=""><img width={40} src="/public/discord.svg" alt="Discord" className="disc-logo"/></a>
-                <a href=""><img width={40} src="/public/twitter.svg" alt="Twitter" className="twt-logo"/></a>
+                <a href=""><img width={40} src="/twitter.svg" alt="Twitter" className="twt-logo"/></a>
             </div>
         </nav>
     </>
