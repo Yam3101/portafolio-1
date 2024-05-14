@@ -36,7 +36,7 @@
 .git-logo:hover {
     transform: translatey(-4px);
     padding-bottom: 5px;
-    border-bottom: #ff9900 4px solid;
+    border-bottom: #ff6600 4px solid;
 }
 .disc-logo {
     animation: aparecer-up-down 1s;
@@ -54,10 +54,10 @@
 .twt-logo:hover {
     transform: translatey(-4px);
     padding-bottom: 5px;
-    border-bottom: #aa00f8 4px solid;
+    border-bottom: #000000 4px solid;
 }
 
-@media (max-width: 445px) {
+@media (max-width: 578px) {
     .nav-title {
         display: none;
     }

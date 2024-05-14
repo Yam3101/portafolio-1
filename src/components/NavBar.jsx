@@ -10,7 +10,7 @@ export default function NavBar() {
                 <h1 className="nav-title-2">YAM&apos;S</h1>
             </div>
             <div className="contact-logos">
-                <a href=""><img width={40} src="/public/github.svg" alt="GitHub" className="git-logo"/></a>
+                <a href="https://github.com/Yam3101"><img width={40} src="/public/github.svg" alt="GitHub" className="git-logo"/></a>
                 <a href=""><img width={40} src="/public/discord.svg" alt="Discord" className="disc-logo"/></a>
                 <a href=""><img width={40} src="/public/twitter.svg" alt="Twitter" className="twt-logo"/></a>
             </div>
