@@ -34,22 +34,27 @@
     transition: transform 0.4s;
 }
 .git-logo:hover {
-    transform: translatey(-6px);
-    fill: aqua;
+    transform: translatey(-4px);
+    padding-bottom: 5px;
+    border-bottom: #ff9900 4px solid;
 }
 .disc-logo {
     animation: aparecer-up-down 1s;
     transition: transform 0.4s;
 }
 .disc-logo:hover {
-    transform: translatey(-6px);
+    transform: translatey(-4px);
+    padding-bottom: 5px;
+    border-bottom: #395ab6 4px solid;
 }
 .twt-logo {
     animation: aparecer-up-down 1.6s;
     transition: transform 0.4s;
 }
 .twt-logo:hover {
-    transform: translatey(-6px);
+    transform: translatey(-4px);
+    padding-bottom: 5px;
+    border-bottom: #aa00f8 4px solid;
 }
 
 @media (max-width: 445px) {
