@@ -62,3 +62,15 @@
   }
 }
 
+h3 {
+  margin: 0;
+}
+
+.title-dev-tools {
+  margin: 0;
+  margin-top: 6vh;
+  font-family: reem kufi fun;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}

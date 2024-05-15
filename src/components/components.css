@@ -96,3 +96,19 @@
         padding-right: 20px;
     }
 }
+
+/* STYLES TOOLS */
+
+h4 {
+    margin: 0;
+}
+
+.container-tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-tool {
+    border: #fff 1px solid;
+    color: #fff;
+}

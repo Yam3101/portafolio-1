@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import Skills from './components/Skills'
+import Tools from './components/Tools'
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
           </div>
         </div>
         <Skills />
+        <div className="container-dev-tools">
+          <h3 className='title-dev-tools'>DEVELOPMENT TOOLS</h3>
+          <Tools />
+        </div>
       </div>
     </>
   )
