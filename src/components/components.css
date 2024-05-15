@@ -126,6 +126,7 @@ h4 {
 .container-head-card {
     display: flex;
     align-items: center;
+    place-content: center;
     gap: 10px;
 }
 
@@ -135,14 +136,8 @@ h4 {
 
 .experience-cont {
     display: grid;
+    place-content: center;
     place-items: center;
-}
-
-.bar-text {
-    display: none;
-}
-.bar-text:hover {
-    display: flex;
 }
 
 .experience-text {
@@ -150,19 +145,40 @@ h4 {
     font-size: 20px;
 }
 
-.experience-bar-html {
+.experience-bar-too-high {
     margin-top: 1vh;
-    position: relative;
-    font-family: league spartan;
-    padding: 5px;
-    font-weight: 600;
-    text-align: center;
-    color: #000;
-    width: 1px;
-    background-color: #a10000;
-    transition: width 1s, background-color 1.5s;
+    height: 10px;
+    animation: aparecer-linea-too-high 1s forwards;
 }
-.experience-bar-html:hover {
-    width: 100%;
-    background-color: #a6ff00;
+.experience-bar-high {
+    margin-top: 1vh;
+    height: 10px;
+    animation: aparecer-linea-high 1s forwards;
+}
+.experience-bar-mid {
+    margin-top: 1vh;
+    height: 10px;
+    animation: aparecer-linea-mid 1s forwards;
+}
+.experience-bar-low {
+    margin-top: 1vh;
+    height: 10px;
+    animation: aparecer-linea-low 1s forwards;
+}
+
+@media (max-width: 860px) {
+    .container-tools {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-tool {
+        width: 30vw;
+    }
+}
+@media (max-width: 519px) {
+    .container-tools {
+        grid-template-columns: auto;
+    }
+    .card-tool {
+        width: 70vw;
+    }
 }
