@@ -8,22 +8,18 @@
 .my-name {
   font-family: teachers;
   color: #fff;
-  animation: aparecer-down-up 1s;
+  animation: aparecer-down-up 1.5s;
 }
 
 .cont-major {
   display: flex;
   flex-direction: column;
+  animation: aparecer-up-down 1.7s;
 }
-
-.back-color, .back-color-2 {
+.back-color-2 {
   background-color: #006eff;
   height: 6px;
-  animation: aparecer-linea 1.6s;
-}
-
-.back-color-2 {
-  display: none;
+  animation: aparecer-linea-1 1.6s;
 }
 
 .title-major {
@@ -50,12 +46,8 @@
     text-align: center;
     font-size: 8.1vi;
   }
-  .back-color {
-    display: none;
-  }
   .back-color-2 {
     margin-top: 1vh;
-    display: flex;
   }
   .text-about-me {
     font-size: 3.5vi;

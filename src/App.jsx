@@ -11,9 +11,8 @@ function App() {
         <h1 className='my-name'>ANGEL YAM</h1>
         <div className='cont-major'>
           <div className='major'>
-            <h1 className='title-major'>FRONT END DEVELOPER STUDENT</h1>
+            <h1 className='title-major'>FRONT-END DEVELOPER STUDENT</h1>
           </div>
-          <div className='back-color'></div>
         </div>
         <div className='container-info'>
           <div className='back-color-2'></div>
