@@ -23,7 +23,7 @@ function App() {
         </div>
         <Skills />
         <div className="container-dev-tools">
-          <h3 className='title-dev-tools'>DEVELOPMENT TOOLS</h3>
+          <h3 className='title-dev-tools'>DEVELOPMENT TOOLS AND SOFTWARE</h3>
           <Tools />
         </div>
       </div>

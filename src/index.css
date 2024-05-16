@@ -23,7 +23,7 @@ h1 {
 @keyframes aparecer-up-down {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;
@@ -39,61 +39,5 @@ h1 {
   to {
     opacity: 1;
     width: 100%;
-  }
-}
-
-@keyframes aparecer-linea-too-high {
-  from {
-    height: 15px;
-    background-color: #ac0000;
-    opacity: 0;
-    width: 0;
-  }
-  to {
-    background-color: #91ff00;
-    opacity: 1;
-    width: 200px;
-  }
-}
-
-@keyframes aparecer-linea-high {
-  from {
-    height: 15px;
-    background-color: #ac0000;
-    opacity: 0;
-    width: 0;
-  }
-  to {
-    background-color: #d9ff00;
-    opacity: 1;
-    width: 180px;
-  }
-}
-
-@keyframes aparecer-linea-mid {
-  from {
-    height: 15px;
-    background-color: #ac0000;
-    opacity: 0;
-    width: 0;
-  }
-  to {
-    background-color: #ffd000;
-    opacity: 1;
-    width: 140px;
-  }
-}
-
-@keyframes aparecer-linea-low {
-  from {
-    opacity: 0;
-    width: 0;
-    height: 15px;
-    background-color: #ac0000;
-  }
-  to {
-    background-color: #fd7200;
-    opacity: 1;
-    width: 150px;
   }
 }

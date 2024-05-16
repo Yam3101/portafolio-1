@@ -62,3 +62,9 @@
   color: #fff;
   text-align: center;
 }
+
+.container-dev-tools {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
