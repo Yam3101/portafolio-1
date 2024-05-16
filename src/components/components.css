@@ -114,11 +114,16 @@
     flex-wrap: wrap;
     width: 70vw;
     justify-content: center;
+    align-items: center;
 }
 
 .logos-tools {
     padding: 2vi;
     transition: border 0.6s;
+    transition: transform 0.4s;
+}
+.logos-tools:hover {
+    transform: translateY(-10px);
 }
 #tool-vsc { animation: aparecer-up-down 2s; }
 #tool-git { animation: aparecer-up-down 2.4s; }
