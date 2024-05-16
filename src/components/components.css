@@ -110,9 +110,20 @@
 
 .container-tools {
     display: flex;
-    gap: 5vi;
-    padding: 5vi;
+    gap: 5px;
     flex-wrap: wrap;
-    width: 60vw;
+    width: 70vw;
     justify-content: center;
 }
+
+.logos-tools {
+    padding: 2vi;
+    transition: border 0.6s;
+}
+#tool-vsc { animation: aparecer-up-down 2s; }
+#tool-git { animation: aparecer-up-down 2.4s; }
+#tool-html { animation: aparecer-up-down 2.8s; }
+#tool-css { animation: aparecer-up-down 3.2s; }
+#tool-js { animation: aparecer-up-down 3.4s; }
+#tool-vite { animation: aparecer-up-down 3.8s; }
+#tool-jsx { animation: aparecer-up-down 4.2s; }

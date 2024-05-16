@@ -36,6 +36,7 @@
   color: #fff;
   font-family: dm sans;
   font-size: 1.5vi;
+  animation: aparecer-up-down 1s;
 }
 
 @media (max-width: 580px) {
@@ -61,6 +62,7 @@
   font-size: 35px;
   color: #fff;
   text-align: center;
+  animation: aparecer-text-1 1.5s;
 }
 
 .container-dev-tools {

@@ -41,3 +41,12 @@ h1 {
     width: 100%;
   }
 }
+
+@keyframes aparecer-text-1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
