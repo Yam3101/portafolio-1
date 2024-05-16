@@ -7,7 +7,7 @@
 
 .my-name {
   font-family: teachers;
-  color: #fff;
+  
   animation: aparecer-down-up 1.5s;
 }
 
@@ -26,14 +26,13 @@
   font-family: reem kufi fun;
   color: #006eff;
   font-weight: 900;
-  font-size: 4.5vi;
+  font-size: 55px;
 }
 
 .text-about-me {
   padding: 20px;
   text-align: center;
   width: 70vw;
-  color: #fff;
   font-family: dm sans;
   font-size: 1.5vi;
   animation: aparecer-up-down 1s;
@@ -60,7 +59,6 @@
   margin-top: 6vh;
   font-family: reem kufi fun;
   font-size: 35px;
-  color: #fff;
   text-align: center;
   animation: aparecer-text-1 1.5s;
 }

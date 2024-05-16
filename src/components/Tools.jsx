@@ -10,8 +10,9 @@ function Tools() {
         <img className="logos-tools" src="/javascriptLogo.png" alt="jsLogo" />
         <img className="logos-tools" src="/viteLogo.png" alt="viteLogo" />
         <img className="logos-tools" src="/reactLogo.png" alt="reactLogo" />
-        <img className="logos-tools" src="/canvaLogo.png" alt="cssLogo" />
-        <img className="logos-tools" src="/vercelLogo.png" alt="cssLogo" />
+        <img className="logos-tools" src="/canvaLogo.png" alt="canvaLogo" />
+        <img className="logos-tools" src="/vercelLogo.png" alt="vercelLogo" />
+        <img className="logos-tools" src="/gitHubLogo.png" alt="githubLogo" />
     </div>
   )
 }

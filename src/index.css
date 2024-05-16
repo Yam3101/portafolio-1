@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  background-color: #0e0e0e;
+  background-color: #101010;
+  color: #fff;
 }
 
 h1 {
   margin: 0;
 }
-
-/* ANIMACIONES */
 
 @keyframes aparecer-down-up {
   from {

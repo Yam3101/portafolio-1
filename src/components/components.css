@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    color: #000;
 }
 
 .container-logo {
@@ -67,7 +68,6 @@
 /* ENDS CSS STYLES OF NAVBAR AND STARTS SKILLS CSS */
 .container-skills {
     margin-top: 8vh;
-    color: #fff;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -107,10 +107,29 @@
 .container-tools {
     margin-top: 5vh;
     display: flex;
-    gap: 5vw;
+    gap: 3vw;
     flex-wrap: wrap;
-    width: 70vw;
+    width: 90vw;
     justify-content: center;
     align-items: center;
     animation: aparecer-up-down 2s;
+}
+
+@media (max-width: 500px) {
+    .logos-tools {
+        width: 70px;
+    }
+}
+
+.footer-web {
+    background-color: #000;
+    padding: 20px;
+    margin-top: 5vh;
+    font-family: league spartan;
+}
+
+.img-dev {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

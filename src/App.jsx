@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar'
 import Skills from './components/Skills'
 import Tools from './components/Tools'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Tools />
         </div>
       </div>
+      <Footer />
     </>
   )
 }
