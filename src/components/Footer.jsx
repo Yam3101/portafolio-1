@@ -7,10 +7,7 @@ function Footer() {
         Portfolio made by Yam
     <p>Website made in React + Vite</p>
     <div className="img-dev">
-        <img src="/vscLittle.png" alt="vscL" />
-        <img src="/reactLittle.png" alt="reactL" />
-        <img src="/viteLittle.png" alt="viteL" />
-        <img src="/githubLittle.png" alt="githubL" />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum odio nemo minus beatae fugiat perferendis nobis, et modi vitae quisquam ullam numquam libero sapiente! Perspiciatis veniam illo dolore adipisci!
     </div>
     </footer>
   )
