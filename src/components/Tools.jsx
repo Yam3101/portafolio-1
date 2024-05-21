@@ -2,7 +2,7 @@ import "./components.css"
 
 function Tools() {
   return (
-    <div className="container-tools">
+    <div className="mt-6 flex gap-7 flex-wrap w-3/4 justify-center items-center">
         <img className="logos-tools" src="/vscLogo.png" alt="vscLogo" />
         <img className="logos-tools" src="/htmlLogo.png" alt="htmlLogo" />
         <img className="logos-tools" src="/cssLogo.png" alt="cssLogo" />

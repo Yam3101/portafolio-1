@@ -87,13 +87,6 @@
 }
 /* STYLES TOOLS */
 .container-tools {
-    margin-top: 5vh;
-    display: flex;
-    gap: 3vw;
-    flex-wrap: wrap;
-    width: 90vw;
-    justify-content: center;
-    align-items: center;
     animation: aparecer-up-down 2s;
 }
 

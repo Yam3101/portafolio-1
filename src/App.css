@@ -7,13 +7,12 @@
 
 .my-name {
   font-family: teachers;
-  
   animation: aparecer-down-up 1.5s;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 
-.cont-major {
-  display: flex;
-  flex-direction: column;
+.animacion-major {
   animation: aparecer-up-down 1.7s;
 }
 .back-color-2 {
@@ -22,16 +21,7 @@
   animation: aparecer-linea-1 1.6s;
 }
 
-.title-major {
-  font-family: reem kufi fun;
-  color: #006eff;
-  font-weight: 900;
-  font-size: 55px;
-}
-
 .text-about-me {
-  padding: 20px;
-  text-align: center;
   width: 70vw;
   font-family: dm sans;
   font-size: 1.5vi;
@@ -55,16 +45,9 @@
 }
 
 .title-dev-tools {
-  margin: 0;
-  margin-top: 6vh;
   font-family: reem kufi fun;
   font-size: 35px;
-  text-align: center;
+  font-weight: 600;
   animation: aparecer-text-1 1.5s;
 }
 
-.container-dev-tools {
-  display: grid;
-  justify-content: center;
-  place-items: center;
-}
