@@ -27,16 +27,6 @@
     border-bottom: #000000 4px solid;
 }
 
-.skills {
-    padding: 2vi;
-    border: #fff 1px solid ;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: space-around;
-    align-items: center;
-    font-family: dm sans;
-}
 #skill-1 {
     animation: aparecer-up-down 1s;
 }
@@ -48,7 +38,7 @@
 }
 
 /* STYLES TOOLS */
-.container-tools {
+.animated-tools {
     animation: aparecer-up-down 2s;
 }
 
