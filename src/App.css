@@ -5,6 +5,10 @@
   padding-top: 10vh;
 }
 
+.textWidth {
+  width: 70vw;
+}
+
 .my-name {
   font-family: teachers;
   animation: aparecer-down-up 1.5s;
