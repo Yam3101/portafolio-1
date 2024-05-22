@@ -21,19 +21,3 @@
 .animated-dev-tools {
   animation: aparecer-text-1 1.5s;
 }
-
-@media (max-width: 580px) {
-  .my-name {
-    font-size: 5vi;
-  }
-  .title-major {
-    text-align: center;
-    font-size: 8.1vi;
-  }
-  .back-color-2 {
-    margin-top: 1vh;
-  }
-  .text-about-me {
-    font-size: 3.5vi;
-  }
-}
