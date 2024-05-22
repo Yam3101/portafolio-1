@@ -1,19 +1,10 @@
-.presentation-text {
-  display: grid;
-  place-items: center;
-  justify-content: center;
-  padding-top: 10vh;
-}
 
 .textWidth {
   width: 70vw;
 }
 
-.my-name {
-  font-family: teachers;
+.my-name-animation {
   animation: aparecer-down-up 1.5s;
-  font-weight: 500;
-  font-size: 1.4rem;
 }
 
 .animacion-major {
@@ -23,11 +14,12 @@
   animation: aparecer-linea-1 1.6s;
 }
 
-.text-about-me {
-  width: 70vw;
-  font-family: dm sans;
-  font-size: 1.5vi;
+.text-about-animated {
   animation: aparecer-up-down 1s;
+}
+
+.animated-dev-tools {
+  animation: aparecer-text-1 1.5s;
 }
 
 @media (max-width: 580px) {
@@ -45,11 +37,3 @@
     font-size: 3.5vi;
   }
 }
-
-.title-dev-tools {
-  font-family: reem kufi fun;
-  font-size: 35px;
-  font-weight: 600;
-  animation: aparecer-text-1 1.5s;
-}
-
