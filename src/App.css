@@ -15,9 +15,7 @@
 .animacion-major {
   animation: aparecer-up-down 1.7s;
 }
-.back-color-2 {
-  background-color: #006eff;
-  height: 6px;
+.back-color-animated {
   animation: aparecer-linea-1 1.6s;
 }
 

@@ -1,15 +1,3 @@
-/* NAVBAR CSS */
-
-.nav-title, .nav-title-2 {
-    font-family: reem kufi fun;
-    font-size: 35px;
-    font-weight: 700;
-    margin: 0;
-    animation: aparecer-right-left 2s;
-}
-.nav-title-2 {
-    display: none;
-}
 
 .git-logo {
     animation: aparecer-down-up 0.6s;
@@ -39,22 +27,6 @@
     border-bottom: #000000 4px solid;
 }
 
-@media (max-width: 580px) {
-    .nav-title {
-        display: none;
-    }
-    .nav-title-2 {
-        display: flex;
-    }
-}
-/* ENDS CSS STYLES OF NAVBAR AND STARTS SKILLS CSS */
-.container-skills {
-    margin-top: 8vh;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
 .skills {
     padding: 2vi;
     border: #fff 1px solid ;
@@ -75,16 +47,6 @@
     animation: aparecer-up-down 1.8s;
 }
 
-@media (max-width: 860px) {
-    .container-skills {
-        display: grid;
-    }
-    .skills {
-        justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
 /* STYLES TOOLS */
 .container-tools {
     animation: aparecer-up-down 2s;
@@ -101,10 +63,4 @@
     padding: 20px;
     margin-top: 5vh;
     font-family: league spartan;
-}
-
-.img-dev {
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
