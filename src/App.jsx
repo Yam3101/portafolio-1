@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className='container-info'>
         <div className='bg-blue-600 h-2 back-color-animated mt-2'></div>
-          <div className='text-about-me p-5 text-center'>
+          <div className='text-about-me p-5 text-center font-dm-sans'>
             My name is Angel Yam, I&apos;m a Front-End Engineering Student, I have knowledge on UI development, 
             Front-End Tools, B1 English Level and many experience on work team projects.  
           </div>
